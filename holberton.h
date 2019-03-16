@@ -10,6 +10,6 @@ typedef struct print
 } print_t;
 int _putchar(char c);
 int _printf(const char *format, ...);
-
+int cha(va_list chara);
 
 #endif
