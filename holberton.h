@@ -10,6 +10,7 @@ typedef struct print
 } print_t;
 int _putchar(char c);
 int _printf(const char *format, ...);
+int (*sp(const char *format))(va_list);
 int cha(va_list chara);
 
 #endif
