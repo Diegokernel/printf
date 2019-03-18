@@ -1,6 +1,4 @@
 #include "holberton.h"
-#include <stdarg.h>
-#include <stadio.h>
 
 /*
 * print_c - Function that prints a charatcter in printf function.
@@ -10,8 +8,8 @@
 */
 int print_c(va_list character)
 {
-	character = (char) va_arg(character, int);
+	char c = (char)va_arg(character, int);
 
-	_putchar(character);
+	_putchar(c);
 	return (1);
 }
