@@ -7,13 +7,12 @@
 * @string: string to print.
 *
 */
-int print_s(valist string)
+int print_s(va_list string)
 {
-	va_start string;
 	int i;
 	char *s;
 
-	s= (char)va_arg(string, char *);
+	s = (char)va_arg(string, char *);
 
 	if (s == "\0")
 	{
