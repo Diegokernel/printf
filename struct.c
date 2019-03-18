@@ -1,12 +1,12 @@
 #include "holberton.h"
 /**
-*
-*
-*
-*/
+ * _printf - print arguments of diferent type
+ * @format: argumets
+ * Return: num to be printed.
+ */
 int _printf(const char *format, ...)
 {
-	int i; 
+	int i;
 	int j = 0;
 	va_list list;
 	int (*f)(va_list);
@@ -43,15 +43,16 @@ int _printf(const char *format, ...)
 	return (j);
 }
 /**
-*
-*
-*
+* sp - print according to the format
+* @format: arguments
+* Return: to be printed
 */
 int (*sp(const char *format))(va_list)
 {
 	int i;
 	prt_t po[] = {
-		{"c", print_c},
+		{"c", cha},
+		{"s", str},
 		{NULL, NULL}
 	};
 
