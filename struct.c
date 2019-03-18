@@ -50,7 +50,7 @@ int _printf(const char *format, ...)
 int (*sp(const char *format))(va_list)
 {
 	int i;
-	print_t po[] = {
+	prt_t po[] = {
 		{"c", print_c},
 		{NULL, NULL}
 	};
