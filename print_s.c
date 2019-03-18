@@ -14,9 +14,9 @@ int print_s(va_list string)
 
 	s = (char)va_arg(string, char *);
 
-	if (s == "\0")
+	if (s == NULL)
 	{
-		s = "NULL";
+		s = "(null)";
 	}
 	for (i = 0; s[i] != '\0'; i++)
 	{
