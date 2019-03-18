@@ -7,7 +7,7 @@ typedef struct print
 {
   char *p;
   void (*f)(va_list ap1);
-} print_t;
+} prt_t;
 int _putchar(char c);
 int _printf(const char *format, ...);
 int (*sp(const char *format))(va_list);
