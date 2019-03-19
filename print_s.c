@@ -2,7 +2,7 @@
 #include <stdarg.h>
 #include <stdio.h>
 
-/*
+/**
  * print_s - Function that prints strings in printf function.
  * @string: string to print.
  *
