@@ -4,8 +4,8 @@
 
 /**
  * print_s - Function that prints strings in printf function.
- * @string: string to print.
- *
+ * @ap1: string to print.
+ * Return: int.
  */
 int print_s(va_list ap1)
 {
