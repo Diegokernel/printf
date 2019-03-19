@@ -1,6 +1,6 @@
 #include "holberton.h"
 
-/*
+/**
 * print_c - Function that prints a charatcter in printf function.
 * @character: character to print.
 *
