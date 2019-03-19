@@ -9,9 +9,9 @@
  */
 int print_s(va_list ap1)
 {
-	int i;
+	int i, j;
 	char *s;
-
+	char h[] = "(null)";	
 	s = va_arg(ap1, char *);
 	if (!s)
 	{
