@@ -1,7 +1,7 @@
 #include "holberton.h"
 /**
-* check_mod - check for modifiers
-* @com: to compare with structure members
+* _printf - check for modifiers
+* @format: to compare with structure members
 * Return: count of char
 */
 int _printf(const char *format, ...)
@@ -36,7 +36,7 @@ int _printf(const char *format, ...)
 			i++;
 		}
 		else
-			j += _putchar(format [i]);
+			j += _putchar(format[i]);
 		i++;
 	}
 	va_end(ap1);
