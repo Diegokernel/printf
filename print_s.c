@@ -15,13 +15,8 @@ int print_s(va_list ap1)
 	s = va_arg(ap1, char *);
 	if (!s)
 	{
-		_putchar('(');
-		_putchar('n');
-		_putchar('u');
-		_putchar('l');
-		_putchar('l');
-		_putchar(')');
-		return (6);
+		for (j = 0; h[j]; j++)
+                	_putchar(h[j]);
 	}
 	for (i = 0; s[i]; i++)
 	{
