@@ -1,13 +1,14 @@
 #include "holberton.h"
 /**
- * int_d - print an integer with d specifier
- * @inte: arguement
+ * int_i - print an integer with d specifier
+ * @ap1: arguments
  * Return: integer.
  */
 int int_i(va_list ap1)
 {
 	unsigned int i;
 	int num, count, lon;
+
 	count = 0;
 	lon = 1;
 
