@@ -16,8 +16,10 @@ int print_s(va_list ap1)
 	if (!s)
 	{
 		for (j = 0; h[j]; j++)
+		{
                 	_putchar(h[j]);
 			return (6);
+		}
 	}
 	for (i = 0; s[i]; i++)
 	{
