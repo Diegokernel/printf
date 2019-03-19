@@ -11,9 +11,9 @@ int print_s(va_list ap1)
 {
 	int i;
 	char *s;
-	
+
 	s = va_arg(ap1, char *);
-	
+
 	if (s == NULL)
 	s = "(null)";
 
