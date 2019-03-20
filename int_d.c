@@ -1,10 +1,10 @@
 #include "holberton.h"
 /**
  * int_d - print an integer with d specifier
- * @ap1: arguement
+ * @inte: arguement
  * Return: integer.
  */
-int int_d(va_list ap1)
+int int_d(va_list inte)
 {
 	unsigned int i;
 	int num, count, lon;
@@ -12,7 +12,7 @@ int int_d(va_list ap1)
 	count = 0;
 	lon = 1;
 
-	num = va_arg(ap1, int);
+	num = va_arg(inte, int);
 	if (num < 0)
 	{
 		count = count + _putchar('-');
