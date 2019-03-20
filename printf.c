@@ -24,7 +24,7 @@ int _printf(const char *format, ...)
 			if (!format[i + 1])
 				return (-1);
 			sp = check_mod(format[i + 1]);
-			if (sp != NULL)
+			if (sp)
 				j += sp(ap1);
 			else
 			{
