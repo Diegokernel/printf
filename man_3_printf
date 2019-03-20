@@ -34,7 +34,7 @@ This characters specify the type of conversion that can be applied.
 		.SH SEE ALSO
 		.I peerlearning(2), projectbased(2), fullstack(2), printf(3),
 		.SH BUGS
-		Other features are still pending...
+		None for now...
 		.SH AUTHOR
 		DiegoKernell and dianaboada
 		2019 Team
