@@ -21,7 +21,7 @@ int _printf(const char *format, ...)
 		{
 			for (; format[i + 1] == ' '; i++)
 				;
-			if (format[i + 1] == '\0')
+			if (!format[i + 1])
 				return (-1);
 			sp = check_mod(format[i + 1]);
 			if (sp != NULL)
