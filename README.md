@@ -1,13 +1,15 @@
 # printf
 
-  1 # 0x10. C - printf
+### Prototype
+#### `int _printf(const char *format, ...)` Returns the number of characters
+printed (int).
 
-	0. I'm not going anywhere. You can print that wherever you want to. I'm here and I'm a Spur for life.
+	* "I'm not going anywhere. You can print that wherever you want to. I'm here and I'm a Spur for life." *
 
   		> Function that produces output according to a format.
 		> Formats character (c) and string (s).
 
-	FUNCTIONS:
+.Sh	FUNCTIONS:
 
 	print_c.c() Function that print a caracter. In other words "this function read a character. The right argument
 	argument (c) is a pointer to char; and it does not add the '\0' character."
@@ -21,7 +23,7 @@
 		> Function that produces output according to a format.
 		> Formats digit (d) and integer (i).
 
-	FUNCTIONS:
+.Sh	FUNCTIONS:
 
 	int_i.c() Function that prints an integer. In other words "The argument is a pointer to an integer"
 
