@@ -1,15 +1,27 @@
-# printf
+# How to do the function printf with 4 format modifiers
 
 ### Prototype
 #### `int _printf(const char *format, ...)` Returns the number of characters
+
+.SHDESCRIPTION - Print based on the format and look for specifiers 
+
+### Usage
+- Includes `holberton.h`
+- Calls the function: `_printf` passed in a string with optional arguments
+- Use format specifiers for desired output
+- Function returns `-1` upon error and `(null)` if a string argument is `NULL`
+
+
 printed (int).
 
-	* "I'm not going anywhere. You can print that wherever you want to. I'm here and I'm a Spur for life." *
+	0."I'm not going anywhere. You can print that wherever you want to. I'm here and I'm a Spur for life."
 
   		> Function that produces output according to a format.
 		> Formats character (c) and string (s).
 
-.Sh	FUNCTIONS:
+.SHFUNCTIONS:
+
+printed (char and str).
 
 	print_c.c() Function that print a caracter. In other words "this function read a character. The right argument
 	argument (c) is a pointer to char; and it does not add the '\0' character."
@@ -23,11 +35,19 @@ printed (int).
 		> Function that produces output according to a format.
 		> Formats digit (d) and integer (i).
 
-.Sh	FUNCTIONS:
+.SHFUNCTIONS:
 
 	int_i.c() Function that prints an integer. In other words "The argument is a pointer to an integer"
 
 	int_d.c() Funtion that prints an integer. In other words "The argument is a pointer to an integer"
+
 ---
 
- ## Author: Diego and Diana.
+### Example Usage
+- `_printf("Hello, world\n")` *prints "Hello, world" followed by a new line*
+- `_printf("Hello %s", "Holberton")` *prints "Hello, Holberton"*
+- `_printf("%d\n", 777)` *printf the decimal number, 777 followed by a new line*
+- `_printf("%c", 'v')` *prints the character 'v'*
+
+## Author: Diego and Diana.
+
